@@ -1,0 +1,26 @@
+<div class="flex relative lg:static surface-ground">
+  <div
+    class="layout-topbar flex justify-content-between align-items-center px-5 surface-0 border-bottom-1 surface-border"
+  >
+    <div class="flex align-items-center justify-content-start text-2xl">
+      <p class="ml-3">Demo-Gui</p>
+    </div>
+    <div class="flex align-items-center justify-content-end">
+      <p class="mr-3">ยินดีต้อนรับ คุณ {{ currUser }}</p>
+      <button
+        (click)="logout()"
+        pButton
+        type="button"
+        label="Logout"
+        class="p-button-outlined"
+        icon="pi pi-sign-out"
+      ></button>
+    </div>
+  </div>
+  <div
+    class="layout-content card-container px-3 py-3"
+    style="min-height: 91vh; height: auto"
+  >
+    <router-outlet></router-outlet>
+  </div>
+</div>

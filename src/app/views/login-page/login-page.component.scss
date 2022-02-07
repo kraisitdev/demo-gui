@@ -1,0 +1,18 @@
+.landing-body {
+  height: 100vh;
+  // min-height: 90.5vh;
+}
+
+.landing-form {
+  max-width: 900px;
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 999;
+}
+
+.p-inputtext {
+  padding: 0.5rem 0.5rem !important;
+}

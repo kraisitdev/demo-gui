@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "kanit";
+  src: url("./assets/fonts/Kanit-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "kanit", sans-serif;
+}
+
+body {
+  margin: 0px;
+}

@@ -1,0 +1,35 @@
+.landingLayout-header {
+  background: rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid #a78629;
+  padding: 0px 20px;
+  color: #f1f1f1;
+  width: 100%;
+  margin-bottom: 25px;
+  position: fixed;
+  top: 0px;
+}
+
+.landingLayout-footer {
+  background: rgba(0, 0, 0, 0.6);
+  border-top: 2px solid #30c7c7;
+  padding: 0px 20px;
+  color: #f1f1f1;
+  width: 100%;
+  margin-top: 25px;
+  position: fixed;
+  bottom: 0px;
+}
+
+.landingLayout-main {
+  background-image: url("../../../assets/images/bg-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  height: auto;
+}
+
+.landingLayout-cover {
+  background: rgba(0, 0, 0, 0.3);
+  height: inherit;
+}

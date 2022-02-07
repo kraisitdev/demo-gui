@@ -1,27 +1,46 @@
-# DemoGui
+# demo-gui
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
+## 📘 About
 
-## Development server
+demo-gui คือ เว็บ frontend สำหรับแสดงตัวอย่างข้อมูลจาก jsonplaceholder
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 📦 Built With
 
-## Code scaffolding
+- [x] Angular 13
+- [x] TypeScript 4
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🏷 Version
 
-## Build
+#### v0.1.0
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Init structure project
+- Init lib
+- Add and design landing-layout, admin-layout
+- Add and design login-page, home-page
+- Update routing
 
-## Running unit tests
+## ⚙ Get Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone project
 
-## Running end-to-end tests
+   ```bash
+   git clone git@github.com:kraisitdev/demo-gui.git
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Go to project folder
 
-## Further help
+   ```bash
+   cd demo-gui
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Set up environment by command
+
+   ```bash
+   npm install
+   ```
+
+4. Run project by command
+
+   ```bash
+   npm start
+   ```
